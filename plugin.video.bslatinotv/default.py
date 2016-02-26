@@ -143,7 +143,7 @@ def makeRequest(url, headers=None):
             elif hasattr(e, 'reason'):
                 addon_log('We failed to reach a server.')
                 addon_log('Reason: %s' %e.reason)
-                xbmc.executebuiltin("XBMC.Notification(AdryanList,We failed to reach a server. - "+str(e.reason)+",10000,"+icon+")")
+                xbmc.executebuiltin("XBMC.Notification(bslatinotv,We failed to reach a server. - "+str(e.reason)+",10000,"+icon+")")
 
 
 def getSources():
@@ -1753,7 +1753,7 @@ def urlsolver(url):
         else:
             resolver = resolved
     else:
-        xbmc.executebuiltin("XBMC.Notification(AdryanList,Urlresolver donot support this domain. - ,5000)")
+        xbmc.executebuiltin("XBMC.Notification(bslatinotv,Urlresolver donot support this domain. - ,5000)")
     return resolver
 
 
@@ -1877,7 +1877,7 @@ def addDir(name,url,mode,iconimage,fanart,description,genre,date,credits,showcon
                 contextMenu.append(('Download','XBMC.RunPlugin(%s?url=%s&mode=9&name=%s)'
                                     %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))
             elif showcontext == 'fav':
-                contextMenu.append(('Remove from AdryanList Favorites','XBMC.RunPlugin(%s?mode=6&name=%s)'
+                contextMenu.append(('Remove from bslatinotv Favorites','XBMC.RunPlugin(%s?mode=6&name=%s)'
                                     %(sys.argv[0], urllib.quote_plus(name))))
             if showcontext == '!!update':
                 fav_params2 = (
