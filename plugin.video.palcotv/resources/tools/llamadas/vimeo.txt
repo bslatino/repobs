@@ -1,1 +1,0 @@
-plugin://plugin.video.live.streamspro/?url=%24doregex%5Burl%5D&mode=17&regexs=%7Bu%27url%27%3A%20%7B%27expres%27%3A%20u%27hls.%2A%3Furl%22%3A%22%28.%2A%3F%29%22%27%2C%20%27referer%27%3A%20u%27https%3A//vimeo.com/%27%2C%20%27name%27%3A%20u%27url%27%2C%20%27page%27%3A%20u%27https%3A//player.vimeo.com/video/COD_VIDEO%27%7D%7D

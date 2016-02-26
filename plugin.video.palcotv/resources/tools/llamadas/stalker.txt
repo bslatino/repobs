@@ -1,1 +1,0 @@
-plugin://plugin.video.stalker/?tmp=1&genre_name=["Children'S"]&title=Nick Jr&cmd=ffrt2 http://localhost/ch/NUM_CANAL&portal={"name": "NFPS", "parental": "false", "url": "http://portal.iptvprivateserver.tv", "mac": "MAC_STALKER", "serial": {"custom": false}, "password": "0000"}&mode=play&logo_url=http://images.wikia.com/logopedia/images/e/eb/Nick_jr_1.png
