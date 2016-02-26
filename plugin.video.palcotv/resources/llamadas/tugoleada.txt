@@ -1,1 +1,0 @@
-plugin://plugin.video.live.streamspro/?url=http%3A%2F%2F%24doregex%5Bplaylist%5D&mode=17&regexs=%7Bu%27playlist%27%3A%20%7B%27expres%27%3A%20u%27source%20src%3D%22http%3A//%28.%2A%3F%29%22%27%2C%20%27referer%27%3A%20u%27http%3A//tugoleada.com/%27%2C%20%27name%27%3A%20u%27playlist%27%2C%20%27page%27%3A%20u%27http%3A//tugoleada.com/canalNUM_CANAL.php%27%7D%7D
