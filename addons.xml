@@ -129,8 +129,7 @@
 	</extension>
 </addon>
 
-
-<addon id="repository.bslatinotv" name="BS Latino Tv official Repo" version="1.1.0" provider-name="BSLatino">
+<addon id="repository.bslatinotv" name="BS Latino Tv official Repo" version="2.1.0" provider-name="BSLatino">
 	<extension point="xbmc.addon.repository" name="BS Latino Tv official Repo">
 		<info compressed="false">https://raw.githubusercontent.com/bslatino/repobs/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/bslatino/repobs/master/addons.xml.md5</checksum>
